@@ -22,5 +22,13 @@
     <div class="col-xs-9"></div>
   </div>
 </div>
+
+<script>
+  var url = 'http://fm.miku.us/loadOne';
+  $.get(url, data, function(j){
+    console.log(j);
+  }, 'jsonp');
+</script>
+
 </body>
 </html>
